@@ -9,11 +9,11 @@ export default function HeroSection() {
     'React',
     'Next.js',
     'TypeScript',
-    'Tailwind CSS',
-    'Node.js',
-    'MongoDB',
+    'TailwindCSS',
+    'C++',
     'Python',
-    'AWS'
+    'TensorFlow',
+    'FreeRTOS'
   ]
 
   const scrollToProjects = () => {
@@ -37,7 +37,7 @@ export default function HeroSection() {
             <div className="relative w-40 h-40 sm:w-48 sm:h-48 mx-auto mb-8">
               <Image
                 src="https://www.pall.dev/Portrait.PNG"
-                alt="Harry Pall Portrait"
+                alt="Harsukrit Pall Portrait"
                 fill
                 className="rounded-full object-cover border-4 border-white shadow-2xl"
                 sizes="(max-width: 640px) 160px, 192px"
@@ -54,10 +54,10 @@ export default function HeroSection() {
             transition={{ duration: 0.8, delay: 0.2 }}
           >
             <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold text-gray-900 dark:text-white mb-4">
-              Harry Pall
+              Harsukrit Pall
             </h1>
             <p className="text-xl sm:text-2xl text-blue-600 dark:text-blue-400 font-medium mb-6">
-              Full Stack Developer
+              Software Developer & Computer Engineering Student
             </p>
           </motion.div>
 
@@ -69,9 +69,9 @@ export default function HeroSection() {
             className="max-w-3xl mx-auto mb-8"
           >
             <p className="text-lg text-gray-600 dark:text-gray-300 leading-relaxed text-balance">
-              Passionate about creating innovative web applications with modern technologies. 
-              I specialize in building scalable, user-friendly solutions that make a difference.
-              Always excited to tackle new challenges and learn cutting-edge technologies.
+              Computer Engineering student at University of Waterloo with a passion for blending software, 
+              hardware, and AI technologies to create intuitive and impactful solutions. Experienced in 
+              robotics, firmware development, and full-stack applications.
             </p>
           </motion.div>
 

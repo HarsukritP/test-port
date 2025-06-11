@@ -1,6 +1,7 @@
 import Navigation from '@/components/Navigation'
 import HeroSection from '@/components/HeroSection'
 import ProjectsSection from '@/components/ProjectsSection'
+import ExperienceSection from '@/components/ExperienceSection'
 import ContactSection from '@/components/ContactSection'
 import Footer from '@/components/Footer'
 
@@ -10,6 +11,7 @@ export default function Home() {
       <Navigation />
       <HeroSection />
       <ProjectsSection />
+      <ExperienceSection />
       <ContactSection />
       <Footer />
     </main>

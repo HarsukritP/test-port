@@ -1,4 +1,4 @@
-# Harry Pall - Portfolio Website
+# Harsukrit Pall - Portfolio Website
 
 A modern, responsive portfolio website built with Next.js, TypeScript, and Tailwind CSS.
 
@@ -23,7 +23,8 @@ A modern, responsive portfolio website built with Next.js, TypeScript, and Tailw
 ## 📱 Sections
 
 - **Hero**: Introduction with portrait and tech stack
-- **Projects**: Featured work with live demos and source code
+- **Projects**: Featured work including Priority Calculator Plus and robotics projects
+- **Experience**: Professional journey through Code Ninjas, WilderCare, Orbit Robotics, and UW Orbital
 - **Contact**: Professional contact form and social links
 - **Footer**: Built with love indicator
 
@@ -31,8 +32,8 @@ A modern, responsive portfolio website built with Next.js, TypeScript, and Tailw
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/harrypall/portfolio-website.git
-cd portfolio-website
+git clone https://github.com/HarsukritP/test-port.git
+cd test-port
 ```
 
 2. Install dependencies:
@@ -49,10 +50,10 @@ npm run dev
 
 ## 📧 Contact
 
-- **Email**: harry@pall.dev
-- **LinkedIn**: [linkedin.com/in/harrypall](https://linkedin.com/in/harrypall)
-- **GitHub**: [github.com/harrypall](https://github.com/harrypall)
+- **Email**: harsukrit@pall.dev
+- **LinkedIn**: [linkedin.com/in/harsukritpall](https://linkedin.com/in/harsukritpall)
+- **GitHub**: [github.com/HarsukritP](https://github.com/HarsukritP)
 
 ---
 
-Built with ❤️ by Harry Pall
+Built with ❤️ by Harsukrit Pall

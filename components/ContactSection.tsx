@@ -30,20 +30,20 @@ export default function ContactSection() {
     {
       icon: Mail,
       label: "Email",
-      value: "harry@pall.dev",
-      href: "mailto:harry@pall.dev"
+      value: "harsukrit@pall.dev",
+      href: "mailto:harsukrit@pall.dev"
     },
     {
       icon: Linkedin,
       label: "LinkedIn",
-      value: "linkedin.com/in/harrypall",
-      href: "https://linkedin.com/in/harrypall"
+      value: "linkedin.com/in/harsukritpall",
+      href: "https://linkedin.com/in/harsukritpall"
     },
     {
       icon: Github,
       label: "GitHub",
-      value: "github.com/harrypall",
-      href: "https://github.com/harrypall"
+      value: "github.com/HarsukritP",
+      href: "https://github.com/HarsukritP"
     }
   ]
 

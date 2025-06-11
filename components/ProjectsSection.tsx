@@ -6,27 +6,27 @@ import { ExternalLink, Github } from 'lucide-react'
 export default function ProjectsSection() {
   const projects = [
     {
-      title: "AI-Powered Portfolio Analytics",
-      description: "Full-stack application that analyzes portfolio performance using machine learning algorithms. Built with React, Python Flask, and TensorFlow for predictive insights and data visualization.",
-      technologies: ["React", "Python", "TensorFlow", "Flask", "PostgreSQL", "D3.js"],
-      liveUrl: "https://portfolio-analytics.pall.dev",
-      githubUrl: "https://github.com/harrypall/portfolio-analytics",
+      title: "Priority Calculator Plus",
+      description: "An all-in-one productivity platform for scheduling and optimizing time management. Manage your work-load with intelligent priority calculations and task optimization algorithms.",
+      technologies: ["React", "Node.js", "Express", "MongoDB", "TypeScript", "TailwindCSS"],
+      liveUrl: "https://priority-calculator-plus.vercel.app",
+      githubUrl: "https://github.com/HarsukritP/priority-calculator-plus",
       gradient: "from-blue-500 via-purple-500 to-pink-500"
     },
     {
-      title: "Real-Time Collaboration Platform",
-      description: "Scalable web application enabling teams to collaborate in real-time with live document editing, video calls, and project management. Features WebSocket connections and microservices architecture.",
-      technologies: ["Next.js", "Node.js", "Socket.io", "MongoDB", "Redis", "AWS"],
-      liveUrl: "https://collab-platform.pall.dev",
-      githubUrl: "https://github.com/harrypall/realtime-collab",
+      title: "UW Orbital Nanosatellite Systems",
+      description: "Developed critical firmware and embedded software for nanosatellite project. Created reliable systems for satellite subsystem control and monitoring with rigorous spaceflight simulations.",
+      technologies: ["C++", "FreeRTOS", "I2C/SPI", "Git", "Embedded Systems", "Hardware Integration"],
+      liveUrl: "https://uworbital.ca",
+      githubUrl: "https://github.com/UWOrbital",
       gradient: "from-green-400 via-blue-500 to-purple-600"
     },
     {
-      title: "Smart IoT Dashboard",
-      description: "IoT device management system with real-time monitoring, automated alerts, and predictive maintenance. Integrates with various sensors and provides comprehensive analytics.",
-      technologies: ["Vue.js", "Python", "MQTT", "InfluxDB", "Docker", "Kubernetes"],
-      liveUrl: "https://iot-dashboard.pall.dev",
-      githubUrl: "https://github.com/harrypall/iot-dashboard",
+      title: "FIRST Robotics Competition Bot",
+      description: "Designed and optimized firmware for competitive robotics using WPILib and Java. Developed motor control, servo systems, and pneumatic integration, improving grabbing mechanism functionality by 50%.",
+      technologies: ["Java", "WPILib", "GitHub", "Robotics", "Motor Control", "Pneumatics"],
+      liveUrl: "https://orbit-robotics.ca",
+      githubUrl: "https://github.com/orbit-robotics",
       gradient: "from-orange-400 via-red-500 to-pink-500"
     }
   ]
@@ -130,7 +130,7 @@ export default function ProjectsSection() {
           className="text-center mt-12"
         >
           <a
-            href="https://github.com/harrypall"
+            href="https://github.com/HarsukritP"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 px-6 py-3 bg-gray-900 dark:bg-white text-white dark:text-gray-900 font-semibold rounded-lg hover:bg-gray-800 dark:hover:bg-gray-100 transition-colors duration-300 group"
