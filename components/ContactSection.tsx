@@ -2,7 +2,7 @@
 
 import { useState } from 'react'
 import { motion } from 'framer-motion'
-import { Send, Mail, Linkedin, Github, MapPin, Phone } from 'lucide-react'
+import { Send, Mail, Linkedin, Github } from 'lucide-react'
 
 export default function ContactSection() {
   const [formData, setFormData] = useState({
@@ -60,11 +60,11 @@ export default function ContactSection() {
             className="mb-8"
           >
             <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 dark:text-white mb-4">
-              Let's Work Together
+              Let&apos;s Work Together
             </h2>
             <p className="text-lg text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
-              Have a project in mind or want to discuss opportunities? I'd love to hear from you. 
-              Let's create something amazing together.
+              Have a project in mind or want to discuss opportunities? I&apos;d love to hear from you. 
+              Let&apos;s create something amazing together.
             </p>
           </motion.div>
         </div>
@@ -128,7 +128,7 @@ export default function ContactSection() {
                   onChange={handleChange}
                   required
                   className="w-full px-4 py-3 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent bg-white dark:bg-gray-800 text-gray-900 dark:text-white transition-colors"
-                  placeholder="What's this about?"
+                  placeholder="What&apos;s this about?"
                 />
               </div>
               
@@ -171,7 +171,7 @@ export default function ContactSection() {
                 Get in touch
               </h3>
               <p className="text-gray-600 dark:text-gray-300 leading-relaxed mb-8">
-                I'm always open to discussing new opportunities, interesting projects, 
+                I&apos;m always open to discussing new opportunities, interesting projects, 
                 or potential collaborations. Whether you have a specific project in mind 
                 or just want to connect, feel free to reach out!
               </p>
@@ -222,7 +222,7 @@ export default function ContactSection() {
               </div>
               <p className="text-green-600 dark:text-green-300 text-sm">
                 Currently accepting freelance and full-time opportunities. 
-                Let's discuss how we can work together!
+                Let&apos;s discuss how we can work together!
               </p>
             </motion.div>
           </motion.div>
